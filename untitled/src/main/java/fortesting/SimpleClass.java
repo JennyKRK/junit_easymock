@@ -16,4 +16,13 @@ public class SimpleClass {
         return this.a - this.b;
     }
 
+    public int simpleDivision() {
+        try {
+            return this.a/this.b;
+        }
+        catch(Exception e) {
+            throw new ArithmeticException();
+        }
+    }
+
 }
